@@ -1,0 +1,144 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4efe7;
+}
+
+.page {
+    min-height: 100vh;
+    padding: 45px 0;
+}
+
+.scene {
+    display: none;
+}
+
+.row {
+    min-height: calc(100vh - 90px);
+    align-items: center;
+}
+
+.auth-card,
+.profile-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+    overflow: hidden;
+}
+
+.side-img {
+    min-height: 440px;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-img {
+    background-image: url("../imgs/tom-jerry-night.webp");
+}
+
+.garden-img {
+    background-image: url("../imgs/tom-jerry-garden.webp");
+}
+
+.form-box {
+    padding: 45px;
+}
+
+.auth-title {
+    color: #222;
+    font-weight: bold;
+}
+
+.auth-subtitle {
+    color: #777;
+    font-size: 14px;
+}
+
+.badge-line {
+    height: 3px;
+    width: 70px;
+    background: #d4a84f;
+    margin: 0 auto 20px;
+}
+
+.form-control {
+    border-radius: 6px;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+.form-control:focus {
+    border-color: #d4a84f;
+    box-shadow: none;
+}
+
+.btn-main {
+    background: #222;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.btn-main:hover {
+    background: #444;
+    color: #fff;
+}
+
+a {
+    color: #805b1d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5e4214;
+}
+
+.profile-box {
+    display: flex;
+}
+
+.profile-photo {
+    width: 42%;
+    min-height: 420px;
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-content {
+    width: 58%;
+    padding: 40px;
+}
+
+.list-group-item {
+    background-color: #fbfbfb;
+}
+
+.alert {
+    width: 420px;
+    max-width: 90%;
+    margin: 0 auto 20px;
+    border-radius: 6px;
+}
+
+@media (max-width: 767px) {
+    .side-img,
+    .profile-photo {
+        min-height: 260px;
+        width: 100%;
+    }
+
+    .profile-box {
+        display: block;
+    }
+
+    .profile-content {
+        width: 100%;
+        padding: 28px;
+    }
+
+    .form-box {
+        padding: 28px;
+    }
+}

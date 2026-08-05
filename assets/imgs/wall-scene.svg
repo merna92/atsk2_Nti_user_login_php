@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14191b"/>
+      <stop offset=".45" stop-color="#423728"/>
+      <stop offset="1" stop-color="#0c0d0d"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="28%" r="45%">
+      <stop offset="0" stop-color="#d6a35b" stop-opacity=".95"/>
+      <stop offset=".45" stop-color="#8d5731" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#111" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#sun)"/>
+  <path d="M0 690 C260 610 420 660 610 605 C850 535 1000 620 1210 555 C1395 497 1510 520 1600 480 L1600 1000 L0 1000Z" fill="#111313" opacity=".76"/>
+  <path d="M1160 198 C1215 252 1235 332 1220 420 C1208 491 1180 540 1194 621 C1205 688 1265 706 1262 768 L1095 768 C1096 702 1138 679 1137 615 C1136 554 1096 511 1083 439 C1066 344 1096 250 1160 198Z" fill="#070707" opacity=".9"/>
+  <path d="M1132 178 C1150 140 1190 138 1210 177 C1192 198 1154 199 1132 178Z" fill="#060606"/>
+  <path d="M1080 372 C1000 398 940 445 895 525" stroke="#070707" stroke-width="35" stroke-linecap="round" fill="none"/>
+  <path d="M1220 380 C1308 402 1370 454 1417 545" stroke="#070707" stroke-width="35" stroke-linecap="round" fill="none"/>
+  <rect x="0" y="718" width="1600" height="282" fill="#2b261f"/>
+  <rect x="0" y="688" width="1600" height="48" fill="#5b4b34"/>
+  <g fill="#776448">
+    <rect x="80" y="640" width="80" height="98"/>
+    <rect x="250" y="630" width="88" height="108"/>
+    <rect x="430" y="646" width="82" height="92"/>
+    <rect x="625" y="632" width="86" height="106"/>
+    <rect x="820" y="644" width="80" height="94"/>
+    <rect x="1010" y="626" width="90" height="112"/>
+    <rect x="1210" y="640" width="86" height="98"/>
+    <rect x="1410" y="628" width="90" height="110"/>
+  </g>
+  <g opacity=".35" stroke="#14100d" stroke-width="5">
+    <path d="M0 790 H1600"/>
+    <path d="M0 850 H1600"/>
+    <path d="M0 912 H1600"/>
+    <path d="M160 718 V1000"/>
+    <path d="M335 718 V1000"/>
+    <path d="M510 718 V1000"/>
+    <path d="M690 718 V1000"/>
+    <path d="M880 718 V1000"/>
+    <path d="M1070 718 V1000"/>
+    <path d="M1260 718 V1000"/>
+    <path d="M1450 718 V1000"/>
+  </g>
+  <path d="M0 1000 H1600 V860 C1290 900 1040 850 760 895 C500 938 270 890 0 930Z" fill="#111"/>
+</svg>
